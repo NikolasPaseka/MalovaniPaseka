@@ -84,7 +84,7 @@ export default function HomePage() {
           {/* CTAs */}
           <div className="flex flex-col gap-3 sm:flex-row">
             <Button asChild size="lg" className="bg-sky-600 hover:bg-sky-500 text-white">
-              <a href="tel:+420123456789">
+              <a href="tel:+420775442003">
                 <Phone className="mr-2 h-5 w-5" />
                 Zavolat: 775 442 003
               </a>
@@ -95,7 +95,7 @@ export default function HomePage() {
               variant="outline"
               className="border-sky-600 text-sky-400 hover:bg-sky-950 bg-transparent"
             >
-              <a href="mailto:malovanipaseka@seznam.cz?subject=Poptávka%20malířských%20prací&body=Dobrý%20den,%20rád(a)%20bych%20poptal(a)%20malířské%20práce.">
+              <a href="mailto:malovani.paseka@seznam.cz?subject=Poptávka%20malířských%20prací&body=Dobrý%20den,%20rád(a)%20bych%20poptal(a)%20malířské%20práce.">
                 <Mail className="mr-2 h-5 w-5" />
                 Napsat e‑mail
               </a>
@@ -199,11 +199,11 @@ export default function HomePage() {
                 <h3 className="text-xl font-semibold mb-2">Kontakt</h3>
                 <p className="text-zinc-700 mb-4">Objednávky a dotazy:</p>
                 <div className="space-y-3">
-                  <a href="mailto:info@malovanipaseka.cz" className="flex items-center gap-3 text-sky-700 hover:underline">
+                  <a href="mailto:malovani.paseka@seznam.cz" className="flex items-center gap-3 text-sky-700 hover:underline">
                     <Mail className="h-5 w-5" />
-                    malovanipaseka@seznam.cz
+                    malovani.paseka@seznam.cz
                   </a>
-                  <a href="tel:+420123456789" className="flex items-center gap-3 text-sky-700 hover:underline">
+                  <a href="tel:+420775442003" className="flex items-center gap-3 text-sky-700 hover:underline">
                     <Phone className="h-5 w-5" />
                     775 442 003
                   </a>
